@@ -1,2 +1,47 @@
+body {
+  width: 100vh;
+  max-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
 
+nav {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  width: 85%;
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 23px;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 120px;
+}
+
+nav ul li a:hover {
+  transition: 0.4s ease;
+  color: #4A4FF2;
+}
 /*# sourceMappingURL=contact.css.map */
