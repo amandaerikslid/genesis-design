@@ -44,3 +44,58 @@ nav ul li a:hover {
     transition: 0.4s ease;
     color: #4A4FF2;
 }
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-width: 100%;
+    min-height: 8rem;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.f-logo {
+    cursor: pointer;
+    list-style: none;
+    width: 80%;
+    transform: translateY(-10px);
+}
+
+.f-right {
+    display: flex;
+}
+
+.f-nav {
+    display: flex;
+    min-width: 300px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+    justify-content: space-evenly;
+}
+
+.f-nav li a:hover {
+    transition: 0.4s ease;
+    color: #4A4FF2;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
