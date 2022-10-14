@@ -7,6 +7,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+/* START OF NAV */
 nav {
   min-width: 100%;
   display: flex;
@@ -45,6 +46,7 @@ nav ul li a:hover {
   color: #4A4FF2;
 }
 
+/* END OF NAV */
 .grid-contact {
   width: 100%;
   display: -ms-grid;
@@ -57,102 +59,82 @@ nav ul li a:hover {
   margin: 40px 0px 50px;
   max-height: 200px;
 }
-
 .grid-contact > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-
 .grid-contact > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-
 .grid-contact > *:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 5;
 }
-
 .grid-contact > *:nth-child(4) {
   -ms-grid-row: 1;
   -ms-grid-column: 7;
 }
-
 .grid-contact > *:nth-child(5) {
   -ms-grid-row: 1;
   -ms-grid-column: 9;
 }
-
 .grid-contact > *:nth-child(6) {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
 }
-
 .grid-contact > *:nth-child(7) {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
 }
-
 .grid-contact > *:nth-child(8) {
   -ms-grid-row: 2;
   -ms-grid-column: 5;
 }
-
 .grid-contact > *:nth-child(9) {
   -ms-grid-row: 2;
   -ms-grid-column: 7;
 }
-
 .grid-contact > *:nth-child(10) {
   -ms-grid-row: 2;
   -ms-grid-column: 9;
 }
-
 .grid-contact > *:nth-child(11) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
-
 .grid-contact > *:nth-child(12) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
-
 .grid-contact > *:nth-child(13) {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
-
 .grid-contact > *:nth-child(14) {
   -ms-grid-row: 3;
   -ms-grid-column: 7;
 }
-
 .grid-contact > *:nth-child(15) {
   -ms-grid-row: 3;
   -ms-grid-column: 9;
 }
-
 .grid-contact > *:nth-child(16) {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
 }
-
 .grid-contact > *:nth-child(17) {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
 }
-
 .grid-contact > *:nth-child(18) {
   -ms-grid-row: 4;
   -ms-grid-column: 5;
 }
-
 .grid-contact > *:nth-child(19) {
   -ms-grid-row: 4;
   -ms-grid-column: 7;
 }
-
 .grid-contact > *:nth-child(20) {
   -ms-grid-row: 4;
   -ms-grid-column: 9;
@@ -165,8 +147,27 @@ nav ul li a:hover {
   grid-row-end: 3;
   -ms-grid-column: 1;
       grid-column-start: 1;
-  -ms-grid-column-span: 2;
-  grid-column-end: 3;
+  -ms-grid-column-span: 3;
+  grid-column-end: 4;
+}
+
+h2 {
+  line-height: 14px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #111111;
+}
+
+.undertitle {
+  width: 80%;
+  margin-top: 40px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(17, 17, 17, 0.662745098);
 }
 
 .item-2,
@@ -228,6 +229,7 @@ button:hover {
   margin-top: 40px;
 }
 
+/* START OF FOOTER */
 footer {
   min-width: 100%;
   min-height: 8rem;
