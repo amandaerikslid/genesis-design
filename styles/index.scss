@@ -83,30 +83,49 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.under-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 30px;
     margin-top: 40px;
+    max-height: 150px;
 }
 
 .big-content {
-    width: 80%;
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 38px;
-
+    font-size: 21px;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 7;
 }
 
 .service {
+    min-width: 125px;
+    min-height: 50px;
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 7px;
     color: #11111170;
+}
+
+.s1 {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.s2 {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 9;
+    grid-column-end: 11;
 }
 
 
