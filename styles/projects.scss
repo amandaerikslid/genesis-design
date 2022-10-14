@@ -7,6 +7,8 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+/* NAV */
+
 nav {
     min-width: 100%;
     display: flex;
@@ -45,14 +47,50 @@ nav ul li a:hover {
     color: #4A4FF2;
 }
 
+/* END OF NAV */
+
+.grid-section {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 30px;
+    margin: 40px 0px 50px;
+    max-height: 500px;
+}
+
+.grid-text {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.grid-item {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.black {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 7;
+    grid-column-end: 8;
+
+
+}
 
 
 
 
 
 
-
-
+/* FOOTER */
 
 footer {
     min-width: 100%;
