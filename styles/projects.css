@@ -344,7 +344,6 @@ nav ul li a:hover {
 
 .grey {
   transform: translateX(30px);
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -353,12 +352,39 @@ nav ul li a:hover {
 }
 
 .black {
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 23px;
   color: #111111;
+}
+
+h2 {
+  line-height: 15px;
+}
+
+.contact-text {
+  font-size: 15px;
+  line-height: 20px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 25px;
+}
+
+.proj-img {
+  width: 100%;
+}
+
+.three-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  margin-top: 30px;
+  width: 32%;
 }
 
 /* FOOTER */
