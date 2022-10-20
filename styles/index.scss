@@ -130,8 +130,102 @@ nav ul li a:hover {
 }
 
 
+.solid {
+    border-top: 1px solid rgb(223, 223, 223);
+     margin-bottom: 40px;
+}
 
+.grid-box {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 300px;
+}
 
+.awards {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #111111;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.site-of-the-day {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #111111;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+.genesis {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+}
+
+.ui-kit {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+
+.small-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1111118a;
+}
+
+.best-nav {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #111111;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+.template {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+
+.year {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+}
+
+.y1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 12;
+    grid-column-end: 12;
+}
+
+.y2 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 12;
+    grid-column-end: 12;
+}
 
 
 
